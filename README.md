@@ -1,90 +1,94 @@
-# Project Ideas Overview
+# IoT-Projekt-Demos
 
-# EcoGarden – Smart Indoor Garden System
+Detta arkiv (repository) visar upp tre IoT-relaterade prototyper som utforskar olika aspekter av hållbarhet och mjukvarukomplexitet. Varje projekt innehåller:
 
-## Overview
-EcoGarden is a robust, cloud-connected IoT solution for indoor gardening. By integrating multi-sensor data with advanced control systems, EcoGarden offers a scalable and future-proof platform for sustainable plant care.
-
-## Core Features
-- **Multi-Sensor Integration:** Real-time monitoring of soil moisture, temperature, humidity, and light intensity.
-- **Automated Irrigation & Lighting Control:** Intelligent actuation to optimize water and energy usage.
-- **Dynamic Analytics:** Interactive dashboards with live charts and predictive analytics.
-- **User-Centric Interface:** A beautifully designed, responsive UI with comprehensive plant profiles.
-- **Customizable Alerts & Notifications:** Real-time notifications for system anomalies and optimal maintenance.
-- **Future-Proof Architecture:** Designed to support additional sensors, advanced AI, and integration with smart home systems.
-
-## Sustainability Impact
-- Supports SDG 12 (Responsible Consumption) and SDG 2 (Zero Hunger) by enabling resource-efficient urban agriculture.
-- Reduces water and energy waste through intelligent automation.
-
-## Technical Implementation
-- **Platform:** Cloud-based web application using React and Chart.js.
-- **IoT Integration:** Simulated sensor data with potential for real hardware integration.
-- **Scalability:** Modular design to support additional features and devices.
-
-## Future Enhancements
-- Advanced machine learning for predictive watering.
-- Integration with real-time weather APIs for dynamic light and temperature control.
-- Enhanced user analytics and social sharing features.
-
-## Summary
-EcoGarden represents a next-generation solution for sustainable indoor gardening with a clear vision for expansion and real-world impact.
+- En kortfattad översikt  
+- Nyckelfunktioner  
+- Hållbarhetsaspekter  
+- Tankar kring potential för A-nivå  
+- Möjliga nästa steg  
 
 ---
 
-# ParkingLot – Smart Parking System Prototype
+## 1. Smart Indoor Garden
 
-## Overview
-ParkingLot is a basic IoT prototype that demonstrates parking spot occupancy detection.
+### Översikt
+Smart Indoor Garden är ett avancerat IoT-system som fokuserar på att övervaka och styra inomhusväxter. Systemet syftar till att optimera vattenanvändning, säkerställa rätt belysning och följa tillväxtmönster, samtidigt som det bidrar till hållbarhet genom ansvarsfull konsumtion.
 
-## Core Features
-- **Occupancy Detection:** Basic sensor simulation for detecting if a parking spot is free, reserved, or taken.
-- **Minimal Interaction:** Toggle reservation state with a straightforward, single-button control.
-- **Simple UI:** Clean and finished interface designed to display spot statuses.
+### Nyckelfunktioner
+- Automatisk bevattning baserad på jordfuktighetsnivåer  
+- Adaptiva odlingslampor som kompletterar naturligt ljus  
+- Prediktiv analys som förutspår bevattningsscheman  
+- Användarautentisering för personlig växthantering  
+- Visuella instrumentpaneler med animerad feedback och realtidsdiagram  
 
-## Sustainability Impact
-- Aims to reduce redundant driving and optimize parking space usage.
-- Minimal additional features for future expansion.
+### Hållbarhet
+- Ligger i linje med SDG 12: Hållbar konsumtion och produktion (minskar avfall, optimerar resurser)  
+- Uppmuntrar lokal, hälsosam växtodling (kan även bidra till SDG 2: Ingen hunger, särskilt i stadsmiljöer)
 
-## Technical Implementation
-- **Platform:** Web-based UI built with React.
-- **IoT Simulation:** Simulated sensor readings for occupancy only.
-- **Basic Functionality:** Core functionality includes a grid display and reset functionality.
+### Potential för A-nivå
+- Visar flera integrerade funktioner (sensorer, styrning, prediktiva algoritmer, användargränssnitt och molnintegration).  
+- Tekniskt utmanande delar (t.ex. adaptiv belysningslogik och datadriven analys).  
+- Utrymme för vidare skalbarhet (fler sensorer, mer avancerad AI eller storskalig växthusautomation).
 
-## Future Enhancements
-- Limited potential for further development in terms of advanced analytics or automation.
-
-## Summary
-ParkingLot serves as a proof-of-concept for basic parking space monitoring but has a narrow scope for future enhancements compared to more robust solutions.
+### Nästa steg
+- Utöka analysen med mer avancerad maskininlärning eller fjärrnotifieringar.  
+- Utforska hydroponik eller stöd för flera växter samtidigt.  
+- Inför solcellsdrivna komponenter för att fördjupa hållbarhetsfokus.
 
 ---
 
-# EcoBudget – Sustainable Budget & IoT Monitoring App
+## 2. Parking System
 
-## Overview
-EcoBudget combines a comprehensive budget/expense tracking system with simulated IoT monitoring for energy and water usage, delivering actionable sustainability insights.
+### Översikt
+Detta projekt simulerar en IoT-aktiverad parkeringslösning där sensorer kan informera användare om lediga, upptagna eller reserverade platser. Huvudsyftet är att minska onödig körning vid letande efter parkering, vilket ska bidra till en smidigare reseupplevelse.
 
-## Core Features
-- **Comprehensive Expense Tracking:** Add, view, and manage personal expenses with an intuitive interface.
-- **IoT Monitoring Integration:** Real-time simulated sensor readings for energy consumption and water usage.
-- **Advanced Analytics:** Detailed charts and trend analysis for expenses and resource usage.
-- **Sustainability Insights:** Provides green tips and actionable recommendations for reducing resource consumption.
-- **User-Centric Design:** Polished UI with multiple interactive dashboards.
-- **Future-Ready Platform:** Designed for potential integration with real IoT devices and advanced machine learning modules.
+### Nyckelfunktioner
+- Upptäckning av beläggning för att visa lediga vs. upptagna platser  
+- Enkel reservationsfunktion för att simulera reserverade utrymmen  
+- En sammanhållen översiktspanel med färgkodad tillgänglighet  
 
-## Sustainability Impact
-- Supports sustainable financial habits alongside resource-efficient living.
-- Encourages eco-friendly behavior by linking daily expenses with energy and water consumption.
+### Hållbarhet
+- Kan främja SDG 11: Hållbara städer och samhällen genom att korta ner körtiden i tätorter.  
+- Minskad trafikstockning kan sänka utsläpp, men ytterligare utveckling krävs för en större effekt.
 
-## Technical Implementation
-- **Platform:** Full-featured web application built with React and Chart.js.
-- **IoT Simulation:** Dynamic sensor data emulation for energy and water metrics.
-- **Modular Design:** Scalable architecture to add further integrations and features.
+### Potential för A-nivå
+- Enkel idé som visar grundläggande IoT-sensorer.  
+- För att nå en avancerad nivå krävs betydande utbyggnader (t.ex. realtidsvägledning av fordon, prediktiv analys, integration med trafikdata).  
+- Behöver breddas för att ta itu med mer komplexa frågor kring hållbarhet och teknik.
 
-## Future Enhancements
-- Real-time IoT device integration.
-- Advanced forecasting using machine learning.
-- Enhanced data visualization and social features for community engagement.
+### Nästa steg
+- Införliva realtidsnavigering eller automatiserad parkeringsvägledning.  
+- Fördjupa dataanalys (t.ex. toppbelastningstider och fördelning av trafiken mellan flera parkeringsplatser).  
+- Koppla till externa tjänster (som stadstrafik eller laddning av elfordon).
 
-## Summary
-EcoBudget delivers a sophisticated, multifunctional platform that supports both sustainable budgeting and resource management, with a clear pathway for future expansion.
+---
+
+## 3. EcoBudget
+
+### Översikt
+EcoBudget är en flerskiktsapp för budgetering som spårar personliga utgifter och simulerar energi- och vattenanvändning för en helhetssyn på hållbar livsstil. Den går längre än en vanlig ekonomiapp genom att inkludera IoT-liknande övervakning och gröna tips för miljövänligare vanor.
+
+### Nyckelfunktioner
+- Utgiftsspårare med realtidsregistrering och kategorisering  
+- IoT-liknande simulering av hushållets energiförbrukning (kWh) och vattenanvändning (liter)  
+- Analys som visar utgiftsmönster, användningsgrafer och potentiella miljöbesparingar  
+- Flik för gröna tips med utvalda råd om hur man minskar förbrukning och kostnader  
+
+### Hållbarhet
+- Adresserar flera globala mål, exempelvis SDG 7: Hållbar energi för alla och SDG 12: Hållbar konsumtion.  
+- Främjar miljömedvetenhet genom att koppla ekonomiska utgifter till resursanvändning.
+
+### Potential för A-nivå
+- Tydligt mångsidig: kombinerar IoT-data, budgetering och hållbarhetstips i ett ekosystem.  
+- Erbjuder avancerade möjligheter (maskininlärning för att förutsäga användnings- och utgiftsmönster, dynamisk måluppföljning).  
+- Har stort utrymme för automatiserade eller realtidsbaserade energisparförslag, vilket ökar komplexiteten.
+
+### Nästa steg
+- Lägg till användarautentisering med personliga profiler.  
+- Integrera riktig sensordata om det är möjligt.  
+- Inför belöningssystem eller gamifiering för att uppmuntra till att nå gröna mål.
+
+---
+
+För att köra en demo, öppna en av mapparna och kör "npm install" följt av "npm start". Öppna sedan webbläsaren och besök "localhost:3000".
