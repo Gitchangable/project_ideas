@@ -91,4 +91,4 @@ EcoBudget är en flerskiktsapp för budgetering som spårar personliga utgifter 
 
 ---
 
-För att köra en demo, öppna en av mapparna och kör "npm install" följt av "npm start". Öppna sedan webbläsaren och besök "localhost:3000".
+För att köra en demo, öppna en av mapparna i en terminal och kör "npm install" följt av "npm start". Öppna sedan webbläsaren och besök "localhost:3000".
