@@ -21,7 +21,6 @@ ChartJS.register(
   Legend
 );
 
-// Styles (reuse same patterns from garden demo)
 const styles = {
   appContainer: {
     fontFamily: "'Roboto', sans-serif",
