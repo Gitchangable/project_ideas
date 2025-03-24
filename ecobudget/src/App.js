@@ -11,10 +11,8 @@ import {
   Legend,
 } from "chart.js";
 
-// Register ChartJS components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
-// Global inline styles
 const styles = {
   appContainer: {
     fontFamily: "'Roboto', sans-serif",
